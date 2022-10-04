@@ -16,7 +16,6 @@ SAREES_URL = "https://www.flipkart.com/clothing-and-accessories/saree-and-access
              "8on,zpd,9og&otracker=categorytree&otracker=nmenu_sub_Women_0_Sarees "
 T_SHIRTS_URL = "https://www.flipkart.com/mens-tshirts/pr?sid=clo%2Cash%2Cank%2Cedy&otracker[]=categorytree&otracker[" \
                "]=nmenu_sub_Men_0_T-Shirts&page="
-
 WEBSITE_URL = "https://www.flipkart.com"
 
 
