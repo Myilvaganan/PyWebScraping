@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 import requests
 import time
 
+import scrapingFlipkart
+
 
 def searchForJobs():
     url = "https://www.linkedin.com/jobs/search?keywords=React.js&location=India&locationId=&geoId=102713980&f_TPR=&f_PP=115702354%2C105214831%2C116703352&position=1&pageNum=0"
@@ -41,10 +43,17 @@ def crawl1mgWebsite():
     return product_name
 
 
+"""
 if __name__ == '__main__':
     while True:
         searchForJobs()
         print(crawl1mgWebsite())
         time_wait = 10
         print(f'Waiting {time_wait} minutes...')
-        time.sleep(time_wait * 60)
+        time.sleep(time_wait * 60) 
+"""
+
+
+if __name__ == '__main__':
+    while True:
+        scrapingFlipkart.scraping_flipkart()
